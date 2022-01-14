@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin : 0;
+    border: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(purple, pink);
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    width: 50%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+#main{
+    padding: 18px 40px;
+}
+
+#main #header{
+    text-align: center;
+}
+
+#main #header img{
+    border-radius: 50%;
+    width: 30%;
+}
+
+#header .subheading{
+    color: white;
+    width: 80%;
+    margin: 10px auto;
+}
+
+#header .subheading h1{
+    color: white;
+    font-size: 40px;
+    font-family: inherit;
+}
+
+#header .subheading p{
+    font-family: inherit;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+#nav-button{
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+}
+
+#nav-button .icon-button{
+    width: 100%;
+    height: 60px;
+    min-height: 60px;
+    margin: 18px 0;
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px #000000;
+    color: white;
+}
+
+#nav-button .icon-button a{
+    text-decoration: none;
+}
+
+.icon-button a i{
+    position: absolute;
+    left : 3%;
+}
+
+.icon-button a{
+    width: 100%;
+    line-height: 60px;
+    font-size: 50px;
+    color: inherit;
+    transition: all .2s ease;
+}
+
+
+.icon-button a .icon-name{
+    text-align: center;
+    line-height: inherit;
+    font-size: 25px;
+    color: inherit;
+}
+
+#nav-button .icon-facebooks:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px blue;
+    color: blue;
+    transition: all .4s ease;
+}
+
+.icon-facebooks a .icon-name:hover{
+    transition: all .2s ease;
+}
+
+
+#nav-button .icon-instagram:hover{
+    background-color: white;
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px #F2A03D;
+    color: #F2561D;
+    transition: all .4s ease;
+}
+
+.icon-instagram a .icon-name:hover{
+    color: inherit;
+    transition: all .2s ease;
+}
+
+#nav-button .icon-youtube:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px orange;
+    color: red;
+    transition: all .4s ease;
+}
+
+.icon-youtube a .icon-name:hover{
+    transition: all .2s ease;
+}
+
+#nav-button .icon-twitter:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px #1DA1F2;
+    color: #1DA1F2;
+    transition: all .4s ease;
+}
+
+.icon-twitter a .icon-name:hover{
+    transition: all .2s ease;
+}
+
+#nav-button .icon-call:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px #C6D116;
+    color: #15ff00;
+    transition: all .4s ease;
+}
+
+.icon-call a .icon-name:hover{
+    transition: all .2s ease;
+}
+
+#nav-button .icon-email:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px #C6D116;
+    color: black;
+    transition: all .4s ease;
+}
+
+.icon-email a .icon-name:hover{
+    transition: all .2s ease;
+}
+
+@media (min-width: 911px) and (max-width: 1370px){
+    #main{
+        padding: 50px 0px;
+    }
+    section{
+        width: 90%;
+        min-height: 100vh;
+        margin: 0 auto;
+    }
+    #header .subheading{
+        width: 90%;
+    }
+    #header .subheading h1{
+        color: white;
+        font-family: inherit;
+        font-size: 50px;
+        margin-top: 15px;
+    }
+    
+    #header .subheading p{
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 20px;
+    }
+    #nav-button{
+        margin-top: 80px;
+    }
+
+    #nav-button .icon-button{
+        min-height: 80px;
+        height: 80px;
+    }
+    .icon-button a{
+        line-height: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 910px){
+    #main{
+        padding: 50px 0px;
+    }
+    section{
+        width: 90%;
+        min-height: 100vh;
+        margin: 0 auto;
+    }
+    #header .subheading h1{
+        color: white;
+        font-family: inherit;
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    
+    #header .subheading p{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 376px) and (max-width: 767px) {
+    #main{
+        padding: 18px 10px;
+    }
+    section{
+        width: 100%;
+        min-height: 100vh;
+        margin: 0 auto;
+    }
+    #header .subheading h1{
+        color: white;
+        font-family: inherit;
+        font-size: 20px;
+    }
+    
+    #header .subheading p{
+        font-size: 15px;
+        font-family: inherit;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 375px) {
+    #main{
+        padding: 20px 10px;
+    }
+    section{
+        width: 100%;
+        min-height: 100vh;
+        margin: 0 auto;
+    }
+    #header .subheading h1{
+        color: white;
+        font-family: inherit;
+        font-size: 18px;
+    }
+    
+    #header .subheading p{
+        font-size: 12px;
+        font-family: inherit;
+        margin-top: 10px;
+    }
+
+    #nav-button {
+        margin-top: 30px;
+    }
+    .icon-button a{
+        font-size: 40px;
+    }
+    .icon-button a .icon-name{
+        font-size: 20px;
+    }
+}
+
+
+
+
